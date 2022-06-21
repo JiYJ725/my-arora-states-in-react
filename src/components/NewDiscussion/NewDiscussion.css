@@ -1,0 +1,30 @@
+.new-discussion {
+  position: sticky;
+  top: 0px;
+  background-color: #8299a8db;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+
+.new-discussion button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #13257e;
+  background-color: #13257e;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+.new-discussion button:hover,
+.new-discussion button:active {
+  background-color: #13257eaa;
+  border-color: #13257eaa;
+}

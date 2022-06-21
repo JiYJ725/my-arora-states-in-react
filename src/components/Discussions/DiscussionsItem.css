@@ -1,0 +1,76 @@
+.discussion-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 1rem 10em;
+  background-color: #ffffff;
+  transition: all 0.2s;
+}
+.discussion-item:hover {
+  transform: scale(1.03);
+}
+
+.discussion-avata-wrapper {
+  margin: 0px 10px 0px 10px;
+}
+
+.discussion-item-avatar {
+  border-radius: 50%;
+  width: 48px;
+  align-self: center;
+}
+
+.discussion-item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 90%;
+}
+
+.discussion-item-title {
+  font-size: 20px;
+  margin-block-start: 0.8em;
+  margin-block-end: 0.6em;
+}
+.discussion-item-information {
+  align-self: flex-end;
+  margin: 0px;
+}
+
+.discussion-item-answered {
+  align-self: center;
+  font-size: 30px;
+  margin: 0px 5px 0px 0px;
+  margin-left: auto;
+}
+
+a:link {
+  color: #0f4c75;
+}
+
+a:visited {
+  color: #bbe1fa;
+}
+
+a:hover {
+  color: rgb(27, 38, 44);
+}
+
+@media (min-width: 580px) {
+  .discussion-item__description {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+  }
+
+  .discussion-item__description h2 {
+    font-size: 1.25rem;
+  }
+
+  .discussion-item__price {
+    font-size: 1.25rem;
+    padding: 0.5rem 1.5rem;
+  }
+}
