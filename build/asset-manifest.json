@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.47af4510.css",
-    "main.js": "/static/js/main.dbd3afe6.js",
-    "index.html": "/index.html",
-    "main.47af4510.css.map": "/static/css/main.47af4510.css.map",
-    "main.dbd3afe6.js.map": "/static/js/main.dbd3afe6.js.map"
+    "main.css": "/my-arora-states-in-react/static/css/main.47af4510.css",
+    "main.js": "/my-arora-states-in-react/static/js/main.dbd3afe6.js",
+    "index.html": "/my-arora-states-in-react/index.html",
+    "main.47af4510.css.map": "/my-arora-states-in-react/static/css/main.47af4510.css.map",
+    "main.dbd3afe6.js.map": "/my-arora-states-in-react/static/js/main.dbd3afe6.js.map"
   },
   "entrypoints": [
     "static/css/main.47af4510.css",
